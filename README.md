@@ -3,7 +3,7 @@ Gatwaways is a Task for Musala Soft
 
 ## Gateways - Angular Project
 
-You can navigate to `https://github.com/ahmedkhairydev/gateways` to get the project
+You can navigate to https://github.com/ahmedkhairydev/gateways to get the project
 
 ## Development server
 
