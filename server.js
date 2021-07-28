@@ -50,14 +50,14 @@ app.post(`/${moduleName}/Add`, (request, response) => {
     request.body.id = Date.now().toString();
     gateways.push(request.body);
     console.log(gateways);
-    response.send({ status: 200 });
+    response.send({ status: 200, body: true });
 });
 
 // add Gateway API
 app.post(`/${moduleName}/Update/:id`, (request, response) => {
     const gatewayIndex = gateways.indexOf(gateways.find(gateway => gateway.id === request.params.id));
     gateways[gatewayIndex] = request.body;
-    response.send({ status: 200 });
+    response.send({ status: 200, body: true });
 });
 
 // Get Specific Gateway API
