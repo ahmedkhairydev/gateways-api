@@ -1,16 +1,24 @@
 {
-  "name": "gateways",
+  "name": "gateways-api",
   "version": "1.0.0",
-  "description": "a CRUD project",
+  "description": "Gatwaways is a Task for Musala Soft",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedkhairydev/gateways-api.git"
   },
   "keywords": [
     "gateways"
   ],
   "author": "Ahmed Khairy",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedkhairydev/gateways-api/issues"
+  },
+  "homepage": "https://github.com/ahmedkhairydev/gateways-api#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
