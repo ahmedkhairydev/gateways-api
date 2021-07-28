@@ -4,7 +4,8 @@
   "description": "Gatwaways is a Task for Musala Soft",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "vercel --prod"
   },
   "repository": {
     "type": "git",

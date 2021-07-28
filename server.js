@@ -23,7 +23,7 @@ app.use(cors());
 app.use(express.static('gateways'));
 
 // Setup Server
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const listening = () => {
     console.log('Hey, server running...');
@@ -34,6 +34,8 @@ app.listen(port, listening);
 
 // module name
 const moduleName = 'Gateway';
+
+app.get('/', (req, res) => res.send('Gateways is ready.'));
 
 // Get All Gateways API
 app.get(`/${moduleName}/GetAll`, (request, response) => {
